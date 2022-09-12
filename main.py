@@ -11,9 +11,8 @@ def main():
     first_game_board = [5, 2, "C", "D", "+"]
     second_game_board = ["5", "-2", "4", "C", "D", "9", "+", "+"]
 
-    # print(bsb.final_result(first_game_board))
-    # print(bsb.final_result(second_game_board))
-
+    print(bsb.final_result(first_game_board))
+    print(bsb.final_result(second_game_board))
 
     # empty_list = []
 
@@ -22,10 +21,6 @@ def main():
     # print(empty_list)
     # empty_list = bsb._correct_add_element_into_given_array(empty_list, 3)
     # print(empty_list)
-
-    sum_list = [1,2]
-    print(sum_list)
-
 
 
     # def sum(val1 : int, val2 : int)->any:
